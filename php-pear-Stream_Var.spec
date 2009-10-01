@@ -5,7 +5,7 @@
 Summary:	Allows stream based access to any variable
 Name:		php-pear-%{upstream_name}
 Version:	1.1.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Stream_Var/
@@ -47,7 +47,7 @@ pear install --nodeps --soft --force --register-only \
 %preun
 if [ "$1" -eq "0" ]; then
     pear uninstall --nodeps --ignore-errors --register-only \
-        %{pear_name} >/dev/null || :
+        %{upstream_name} >/dev/null || :
 fi
 
 %clean
