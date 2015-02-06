@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.1.0
-Release:	8
+Release:	9
 Summary:	Allows stream based access to any variable
 License:	PHP License
 Group:		Development/PHP
