@@ -8,7 +8,7 @@ Release:	9
 Summary:	Allows stream based access to any variable
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Stream_Var/
+URL:		https://pear.php.net/package/Stream_Var/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
